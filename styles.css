@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+#header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 225, 209);
+}
+.details{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+    right: 100px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+details a{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.name{
+    position: relative;
+    left: 100px;
+    
+}
+#welcome{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    width: 500px;
+    font-size: 19px;
+}
+.image img{
+    width: 550px;
+    align-items: center;
+}
+.icon img{
+    width: 20px;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+    gap: 30px;
+}
+.icon{
+    display: flex;
+    gap: 30px;
+}
+.about{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.abt{
+    text-align: center;
+}
+.image_2 img{
+    width: 350px;
+    align-items: center;
+    position: relative;
+    left: 60px;
+}
+.skills{
+    text-align: center;
+    
+}
+.image_3{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.image_3 img{
+    padding: 30px;
+    width: 190px;
+}
+.excel{
+    position: relative;
+    top: 25px;
+
+}
+.excel img{
+    width:210px ;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+#project_heading{
+    text-align: center;
+}
+.project_flex{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 40px;
+
+}
+.project_para p{
+    width: 280px;
+    text-align: center;
+}
+.project_para{
+    background-color: rgba(255, 255, 255, 0.33);
+    width: 280px;
+    height: 220px;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+.project_para h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.701);
+}
+#project_heading p{
+    font-size: 20px;
+}
+.form_heading{
+    text-align: center;
+    padding-top: 50px;
+}
+.input input{
+    width: 400px;
+    height: 37px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.input{
+    text-align: center;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    margin-top: 40px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+}
+.name{
+    position: relative;
+    right: 70px;
+}
+.rights{
+    
+    
+    
+    text-align: center;
+   
+}
